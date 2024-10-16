@@ -1,0 +1,10 @@
+#Hehe {
+    font-family: Grape;
+    color: brown;
+}
+
+
+@font-face {
+    font-family: Grape;
+    src: url('monster_of_fantasy/MONSTER OF FANTASY.otf');
+}
