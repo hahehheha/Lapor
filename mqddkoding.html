@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Diri Mahasiswa</title>
+    <link rel="Stylehsheet" href="styleS.css">
+</head>
+<body>
+        <p id="Hehe">Pertanyaan Seputar HTML</p>
+    
+        <h2>1. Pertanyaan Seputar Tag</h2>
+        <ol>
+            <li>
+                Apa yang dimaksud dengan tag pada HTML?
+            </li>
+            <li>
+                Apa itu pembuka dan penutup tag? Apakah hal tersebut terdapat pada semua jenis tag?
+            </li>
+        </ol>
+    
+        <h2>2. Pertanyaan Seputar Elemen</h2>
+        <ol>
+            <li>
+                Apa yang dimaksud dengan elemen?
+            </li>
+            <li>
+                Apa yang dimaksud dengan tagname, attribute dan content pada elemen?
+            </li>
+            <li>
+                Apakah elemen dapat ditumpuk? Apa yang terjadi bila demikian?
+            </li>
+        </ol>
+    
+        <h2>3. Pertanyaan Seputar Anchor</h2>
+        <ol>
+            <li>
+                Apa yang dimaksud dengan anchor?
+            </li>
+            <li>
+                Bagaimana caranya anchor dapat berfungsi, baik dari sisi pendefinisian ataupun pengaplikasiannya?
+            </li>
+        </ol>
+    
+        <h2>4. Pertanyaan Seputar Multimedia</h2>
+        <h3>A. Teks</h3>
+        <ol>
+            <li>
+                Sebutkan tag yang dapat digunakan untuk memanipulasi konten teks pada HTML, serta jelaskan fungsinya!
+            </li>
+            <li>
+                Sebutkan tag yang dapat digunakan untuk memanipulasi struktur konten teks pada HTML!
+            </li>
+        </ol>
+    
+        <h3>B. Gambar</h3>
+        <ol>
+            <li>
+                Apabila sebuah tag gambar tidak menampilkan gambar sebagaimana seharusnya, apa saja yang mungkin menyebabkan hal tersebut?
+            </li>
+            <li>
+                Apabila ternyata ada teks yang menggantikan gambar tersebut, apa yang sebenarnya terjadi? Jelaskan!
+            </li>
+        </ol>
+    
+        <h3>C. Audio</h3>
+        <ol>
+            <li>
+                Bagaimana caranya untuk kita dapat memasukkan audio source dari web (non-lokal)? Jelaskan!
+            </li>
+        </ol>
+    
+        <h3>D. Video</h3>
+        <ol>
+            <li>
+                Apa yang biasanya terjadi apabila atribut autoplay pada tag video tidak berjalan? Apa yang anda harus lakukan sehingga atribut tersebut dapat berfungsi dengan semestinya?
+            </li>
+        </ol>
+    
+    <h2>Data Diri Mahasiswa</h2>
+    <form id="dataDiri">
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="nim">NIM:</label><br>
+        <input type="text" id="nim" name="nim" required><br><br>
+
+        <label for="jurusan">Jurusan:</label><br>
+        <select id="jurusan" name="jurusan" required>
+            <option value="Teknik Informatika">Teknik Informatika</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+        </select>
+
+        <br>
+
+        <label for="jurusan lain">Jurusan lain (tidak wajib):</label><br>
+        <input type="text" name="jurusan lain">
+    
+        <br>
+        <br>
+
+        <a href="gambar.html" target="_blank">
+            <input type="button" value="Submit" onclick="alert('Data telah disubmit!')">
+        </a>
+    </form>
+
+</body>
+</html>
